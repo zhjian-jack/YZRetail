@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/color_ff"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_above="@+id/lay_left_bottom"
+        android:orientation="vertical"
+        android:id="@+id/lay_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:textColor="@color/color_33"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/settlement_list"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/color_33"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="收银员:李四"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+        <View
+            android:background="@color/color_dd"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <View
+                android:background="@color/color_dd"
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+            <View
+                android:layout_alignParentRight="true"
+                android:background="@color/color_dd"
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+            <View
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_dd"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="@string/no_add_any_goods" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/lay_left_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+        <View
+            android:background="@color/color_dd"
+            android:id="@+id/view_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:background="@color/color_ff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textColor="@color/color_3388fff"
+                android:background="@drawable/shape_blue"
+                android:gravity="center"
+                android:text="@string/cancel_full_order"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:visibility="invisible"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:visibility="invisible"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:background="@drawable/shape_corner_blue"
+                android:textColor="@color/color_ff"
+                android:text="@string/pay"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="60dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout><!--end left-->

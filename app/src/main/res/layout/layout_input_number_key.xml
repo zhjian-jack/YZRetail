@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="1dp"
+    android:background="@drawable/shape_corner"
+    android:id="@+id/ll_number_key"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" >
+            <TextView
+                style="@style/TitleTextTopLeftStyle"
+                android:text="7"
+                />
+            <View
+                style="@style/ViewRowLine" />
+            <TextView
+                style="@style/TitleTextStyle"
+                android:text="4"
+                />
+            <View
+                style="@style/ViewRowLine" />
+            <TextView
+                style="@style/TitleTextStyle"
+                android:layout_width="match_parent"
+                android:text="1" />
+            <View
+                style="@style/ViewRowLine" />
+            <TextView
+                style="@style/TitleTextBottomLeftStyle"
+                android:text="00"
+                />
+        </LinearLayout>
+        <View
+            style="@style/ViewColumnLine" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" >
+            <TextView
+                style="@style/TitleTextStyle"
+                android:text="8"
+                />
+            <View
+                style="@style/ViewRowLine" />
+            <TextView
+                style="@style/TitleTextStyle"
+                android:text="5"
+                />
+            <View
+                style="@style/ViewRowLine" />
+            <TextView
+                style="@style/TitleTextStyle"
+                android:text="2"
+                />
+            <View
+                style="@style/ViewRowLine" />
+            <TextView
+                style="@style/TitleTextStyle"
+                android:text="0"
+                />
+        </LinearLayout>
+        <View
+            style="@style/ViewColumnLine" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" >
+            <TextView
+                style="@style/TitleTextStyle"
+                android:text="9"
+                />
+            <View
+                style="@style/ViewRowLine" />
+            <TextView
+                style="@style/TitleTextStyle"
+                android:text="6"
+                />
+            <View
+                style="@style/ViewRowLine" />
+            <TextView
+                style="@style/TitleTextStyle"
+                android:text="3"
+                />
+            <View
+                style="@style/ViewRowLine" />
+            <TextView
+                style="@style/TitleTextStyle"
+                android:id="@+id/tv_eng_key"
+                android:text="abc" />
+        </LinearLayout>
+        <View
+            style="@style/ViewColumnLine" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" >
+            <TextView
+                style="@style/TitleTextTopRightStyle"
+                android:text="清空"
+                />
+            <View
+                style="@style/ViewRowLine" />
+            <RelativeLayout
+                android:background="@color/color_cbd2d7"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" >
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/common_icon_delete_key"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+            </RelativeLayout>
+            <View
+                style="@style/ViewRowLine" />
+            <TextView
+                style="@style/TitleTextBottomRightStyle"
+                />
+        </LinearLayout>
+</LinearLayout>

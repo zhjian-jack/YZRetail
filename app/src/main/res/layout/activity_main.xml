@@ -1,0 +1,13 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--start left-->
+    <include layout="@layout/layout_main_left" />
+    <View
+        android:background="@color/color_dd"
+        android:layout_width="1dp"
+        android:layout_height="match_parent" />
+    <!--start right-->
+    <include layout="@layout/layout_main_right"/>
+</LinearLayout>

@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_4F5158</item>
+        <item name="colorPrimaryDark">@color/color_4F5158</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TitleTextStyle">
+        <item name="android:background">@color/color_cbd2d7</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="TitleTextWidthStyle">
+        <item name="android:background">@color/color_cbd2d7</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+    <style name="TitleTextTopLeftStyle">
+        <item name="android:background">@drawable/shape_corner_top_left</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="TitleTextBottomLeftStyle">
+        <item name="android:background">@drawable/shape_corner_botton_left</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="TitleTextTopRightStyle">
+        <item name="android:background">@drawable/shape_corner_top_right</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="TitleTextBottomRightStyle">
+        <item name="android:layout_weight">2</item>
+        <item name="android:textColor">@color/color_ff</item>
+        <item name="android:background">@drawable/shape_corner_botton_right</item>
+        <item name="android:text">确定</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="ViewRowLine">
+        <item name="android:background">@color/color_c1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+    <style name="ViewColumnLine">
+        <item name="android:background">@color/color_c1</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+</resources>

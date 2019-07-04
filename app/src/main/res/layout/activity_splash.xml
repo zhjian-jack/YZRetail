@@ -1,0 +1,122 @@
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <!--start left-->
+                <LinearLayout
+                    android:background="@color/color_ff"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                </LinearLayout><!--end left-->
+                <View
+                    android:background="@color/color_f8"
+                    android:layout_width="8dp"
+                    android:layout_height="match_parent" />
+                <!--start right-->
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@color/color_ff"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                        <!--start title -->
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp">
+                                        <ImageView
+                                            android:src="@mipmap/ic_right_close"
+                                            android:layout_marginRight="10dp"
+                                            android:layout_centerVertical="true"
+                                            android:layout_alignParentRight="true"
+                                            android:text="关闭"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content" />
+                                </RelativeLayout>
+                                <TextView
+                                    android:textSize="16sp"
+                                    android:layout_marginLeft="10dp"
+                                    android:textColor="@color/color_33"
+                                    android:text="手动输入核销码"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+                        </LinearLayout> <!--end title -->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent" />
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_weight="3"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent" >
+                                        <LinearLayout
+                                            android:layout_weight="1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp" />
+
+                                        <LinearLayout
+                                            android:orientation="vertical"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="3">
+                                                <LinearLayout
+                                                    android:background="@drawable/shape_corner"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="60dp"
+                                                    android:layout_marginBottom="10dp">
+                                                        <TextView
+                                                            android:textSize="16dp"
+                                                            android:gravity="center|left"
+                                                            android:paddingLeft="10dp"
+                                                            android:textColor="@color/color_dd"
+                                                            android:background="@null"
+                                                            android:text="请输入客户核心销码"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent" />
+                                                </LinearLayout>
+                                                <!--start 字母-->
+                                                <include layout="@layout/layout_input_eng_key" />   <!--end 字母-->
+                                                <!--start number-->
+                                                <include layout="@layout/layout_input_number_key" /> <!--end number-->
+                                        </LinearLayout>
+                                        <LinearLayout
+                                            android:visibility="invisible"
+                                            android:background="@drawable/shape_corner"
+                                            android:layout_weight="1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp" >
+                                                <LinearLayout
+                                                    android:layout_marginLeft="1dp"
+                                                    android:layout_marginTop="10dp"
+                                                    android:layout_marginRight="1dp"
+                                                    android:background="@color/color_ff"
+                                                    android:orientation="vertical"
+                                                    android:layout_weight="1"
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent" >
+                                                </LinearLayout>
+                                        </LinearLayout>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent" />
+                        </LinearLayout>
+                </LinearLayout><!--end right-->
+        </LinearLayout>
+</LinearLayout>
